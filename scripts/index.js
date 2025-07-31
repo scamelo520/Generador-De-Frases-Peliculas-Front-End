@@ -9,10 +9,10 @@ function cargarInfoSerie() {
         fichaDescripcion.innerHTML = `
               <img src="${data.poster}" alt="${data.titulo}" />
               <div>
-                  <h2>${data.titulo_de_serie}</h2>
+                  <h2>${data.tituloDeSerie}</h2>
                   <div class="descripcion-texto">
                       <p><i>"${data.frase}"</i></p>
-                      <p><b>Citado por:</b> ${data.autor_frase}</p>
+                      <p><b>Citado por:</b> ${data.autorFrase}</p>
                   </div>
               </div>
           `;
